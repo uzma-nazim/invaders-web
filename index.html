@@ -11,6 +11,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
     <link rel="icon" href="./images/logo.jpeg">
 
 
@@ -27,27 +30,27 @@
         <div class="logo">
             <ul>
                 <li onclick="Toggel()"><i class="fa-solid fa-bars"></i>
-                    <ul class="mobilemenu" >
+                    <ul class="mobilemenu">
 
                         <li class="mobileicon"><a href="">About</a></li>
-                        <li class="mobileicon"><a href="">Gallery</a></li>
-                        <li class="mobileicon"><a href="">Trail</a></li>
+                        <li class="mobileicon"><a href="#Gallery">Gallery</a></li>
+                        <li class="mobileicon"><a href="#trailSection">Trail</a></li>
 
 
                     </ul>
                 </li>
 
                 <li class="hide"><a href=""> <img src="./images/logo.jpeg" width="90px" alt=""> </a></li>
-                <li class="hide" ><a href="">About</a></li>
-                <li class="hide"><a href="">Gallery</a></li>
-                <li class="hide"><a href="">Trail</a></li>
+                <li class="hide"><a href="">About</a></li>
+                <li class="hide"><a href="#Gallery">Gallery</a></li>
+                <li class="hide"><a href="#trailSection">Trail</a></li>
             </ul>
         </div>
         <div class="icon">
             <ul>
                 <li><a href=""> <img width="30px" src="./images/New folder/discord.png" alt=""> </a></li>
                 <li><a href=""> <img width="30px" src="./images//New folder/insta.png" alt=""> </a></li>
-                <li><a href=""> <img src="./images/tiktok.png" width="30px" alt=""> </a></li>
+        
                 <li><a href=""> <img width="30px" src="./images/New folder/twitter.png" alt=""> </a></li>
 
             </ul>
@@ -56,25 +59,32 @@
 
 
     <!-- //conten    -->
-    <div class="content">
+    <section class="contentstar">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <!-- <div id="stars3"></div> -->
+        <div class="content">
 
-        <div class="contenHeading">
+            <div class="contenHeading">
 
-            <h1>Welcome to Irrelevant invaders</h1>
-            <br>
-            <br>
-            <p>Irrelevant invaders is a 10k artistic project with a community thats built on combining our experience on
-                NFT’s and for joining our community we want to give back not just our experience but also Eth for
-                supporting us we want to reward our community we plan to raffle off eth for each trail map goal we hit
-                dont miss out on your chance to become a irrelevant invader!</p>
+                <h1>Welcome to Irrelevant invaders</h1>
+                <br>
+                <br>
+                <p>Irrelevant invaders is a 10k artistic project with a community thats built on combining our
+                    experience on
+                    NFT’s and for joining our community we want to give back not just our experience but also Eth for
+                    supporting us we want to reward our community we plan to raffle off eth for each trail map goal we
+                    hit
+                    dont miss out on your chance to become a irrelevant invader!</p>
+
+            </div>
+            <div class="contentIMg">
+
+                <img src="./images/newbanner.jpeg" width="70%" alt="">
+            </div>
 
         </div>
-        <div class="contentIMg">
-
-            <img src="./images/newbanner.jpeg" width="70%" alt="">
-        </div>
-
-    </div>
+    </section>
 
 
     <div class="buttonSection">
@@ -89,14 +99,14 @@
                 communities choice later on as part of one of our trail map goals. We plan to make a game and future
                 collections as well as a merch line later on!</p>
             <br>
-            
+
 
             <button class="connect">Connect wallet now</button>
         </div>
     </div>
 
 
-    <div class="gallerySection">
+    <div id="Gallery" class="gallerySection">
 
 
         <div class="galleryHeading">
@@ -142,7 +152,7 @@
 
     <!-- trailMap -->
 
-    <div class="trail">
+    <div id="trailSection" class="trail">
         <div class="trailSection">
 
             <br>
@@ -152,22 +162,71 @@
                 <h1>Trail map</h1>
 
             </div>
-            
 
 
-            <p>
-                For the trail map we would like a starting position with a ufo representing us and a trail map goal at
-                500
-                sold 1k sold 2k 3k 4k 5k 6k 7k 8k 9k 10k at each goal we would like it to show what we are giving away
-                for
-                the 500 we want to give away 2500$ in eth to two luck Nft owners at 1000 we want to give 5000$ to two
-                lucky
-                nft owners 2k we want 10000$ to two lucky nft owners and so on and so forth adding 10k to the reward
-                moving
-                up the trail map goal splitting it between 2 individuals
-                <br>
-                <br>
-                
+            <div class="container-fluid blue-bg">
+                <div class="container">
+                    
+                    <!--first section-->
+                    <div class="row align-items-center how-it-works">
+                        <div class="col-2 text-center bottom">
+                            <div class="circle">1</div>
+                        </div>
+                        <div class="col-6">
+                            <h5>starting</h5>
+                            <p>For the trail map we would like a starting position with a ufo representing us</p>
+                        </div>
+                    </div>
+                    <!--path between 1-2-->
+                    <div class="row timeline">
+                        <div class="col-2">
+                            <div class="corner top-right"></div>
+                        </div>
+                        <div class="col-8">
+                            <hr />
+                        </div>
+                        <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                        </div>
+                    </div>
+                    <!--second section-->
+                    <div class="row align-items-center justify-content-end how-it-works">
+                        <div class="col-6 text-right">
+                            <h5>Middle</h5>
+                            <p>A trail map goal at 500 sold 1k sold 2k 3k 4k 5k 6k 7k 8k 9k 10k at each goal we would like
+                                it to show what we are giving away for the 500 we want to give away 2500$ in eth to two luck Nft
+                                owners at 1000</p>
+                        </div>
+                        <div class="col-2 text-center full">
+                            <div class="circle">2</div>
+                        </div>
+                    </div>
+                    <!--path between 2-3-->
+                    <div class="row timeline">
+                        <div class="col-2">
+                            <div class="corner right-bottom"></div>
+                        </div>
+                        <div class="col-8">
+                            <hr />
+                        </div>
+                        <div class="col-2">
+                            <div class="corner top-left"></div>
+                        </div>
+                    </div>
+                    <!--third section-->
+                    <div class="row align-items-center how-it-works">
+                        <div class="col-2 text-center top">
+                            <div class="circle">3</div>
+                        </div>
+                        <div class="col-6">
+                            <h5>End!</h5>
+                            <p>  we want to give 5000$ to two lucky nft owners 2k we want 10000$ to two lucky nft
+                                owners and so on and so forth adding 10k to the reward moving up the trail map goal splitting it between 2 individuals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             </p>
 
         </div>
@@ -185,7 +244,7 @@
                 <h4>follow us !</h4>
                 <img width="30px" src="./images/New folder/discord.png" alt="">
                 <img width="30px" src="./images//New folder/insta.png" alt="">
-                <img src="./images/tiktok.png" width="30px" alt="">
+
                 <img width="30px" src="./images/New folder/twitter.png" alt="">
             </div>
         </div>
