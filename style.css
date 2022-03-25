@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+@font-face {
+    font-family:helvaticBold;
+    src: url(./images/font/helvetica-neue-bold.ttf);
+}
+@font-face {
+    font-family:helvaticlight;
+    src: url(./images/font/helveticaneue.ttf);
+}
+.mianheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+    /* background-color: black; */
+    background-color: #000;
+
+    z-index: 99;
+
+    border-bottom: 2px solid rgb(128, 128, 128 ,0.4);
+}
+.icon ul{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+.mianheader ul  li{
+    list-style: none;
+    font-size: 20px;
+
+    margin-right: 30px;
+}
+.mianheader ul  li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(15, 170, 15);
+    font-family:helvaticlight;
+
+}
+.icon ul li{
+    padding-top: 25px;
+} 
+.fa-facebook{
+    color: #0E8CF1;
+}
+.fa-discord{
+    color: #5C77B4;
+    font-size: 27px;
+
+
+}
+
+.content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0 );
+    padding: 10px  ;
+    align-items: center;
+}
+.contenHeading{
+    color: whitesmoke;
+    /* border: 1px solid red; */
+    width: 500px;
+}
+.contenHeading h1{
+    font-family:helvaticBold;
+
+    font-size: 50px;
+    padding: 0px 10px;
+    color: #d3d319;
+} 
+.contenHeading p {
+
+    padding-left: 10px;
+
+    font-family:helvaticlight;
+
+    font-size: 17px;
+    
+    word-spacing: 2px;
+    line-height: 25px;
+
+}
+.buttonContent p{
+    font-size: 17px;
+    
+    word-spacing: 2px;
+    font-family:helvaticlight;
+
+    line-height: 22px;
+    
+
+}
+.buttonSection{
+
+    padding: 30px;
+    /* background-color: rgb(211, 211, 211 ,0.7); */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.buttonContent{
+    width: 800px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.connect{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* background: linear-gradient(#c9cc09 ,#07cc07); */
+    /* background-color: rgb(0, 0, 0 ,0.5); */
+    background-color: #d3d319;
+    font-size: 17px;
+    color: white;
+}
+.gallerySection{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+.galleryHeading h1{
+    
+    font-size: 50px;
+    color: #d3d319;
+    font-family:helvaticBold;
+
+    padding: 40px;
+    text-align:center;
+
+} 
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
+
+  /* //trail Map   */
+
+.trail{
+    display: flex;
+    justify-content: center;
+}
+  .trailSection{
+    width: 900px;
+
+    /* border: 1px solid red; */
+      
+  }
+  .trailHeading{
+
+    font-size: 40px;
+    color: #d3d319;
+    padding: 10px;
+    text-align:center;
+    font-family:helvaticBold;
+
+    position: relative;
+  }
+  .trailHeading::before{
+      position: absolute;
+      top: 0px;
+      left: 45%;
+      content: "";
+      width: 10%;
+      height: 7px;
+      border-radius: 10px;
+      background-color:#d3d319;
+
+
+  }
+  .trailSection P{
+    font-size: 17px;
+    font-family:helvaticlight;
+    
+    word-spacing: 2px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+
+  .footer{
+      background-color: black;
+
+      /* height: 20vh; */
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .allfooterconten{
+      width: 50%;
+
+      /* border: 1px solid red; */
+      text-align: center;
+
+  }
+  .connect2{
+
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* background: linear-gradient(#c9cc09 ,#07cc07); */
+    background-color:#d3d319;
+    font-size: 17px;
+    color: white;
+  }
+  .footersocials img{
+      margin-right: 10px;
+  }
+  .footersocials h4{
+      color: #d3d319;
+      font-size: 20px;
+    font-family:helvaticlight;
+
+      margin: 20px;
+  }
+  .footersocials{
+      text-align: center;
+  }
+
+.fa-bars{
+    /* color: #d3d319; */
+    /* color:  rgb(15, 170, 15); */
+    color: white;
+    font-size: 23px;
+    display: none;
+    /* padding-top: 00px !important; */
+    position: relative;
+}
+.mobileicon{
+    display: none;
+    
+}
+.mobileicon{
+    
+    padding: 10px;
+    /* border: 2px solid red; */
+    
+    
+}
+.mobilemenu{
+    border: 0px solid rgb(128, 128, 128 ,0.4);
+    position: absolute;
+    top: 71%;
+    left: 70px;
+
+    display: none;
+    border-radius: 10px;
+    padding: 10px;
+    visibility: hidden;
+    transition: .3s;
+  
+
+
+}
+@media only screen and (max-width: 1093px){
+    .contenHeading{
+        margin-top: 150px;
+    }
+    .content{
+        height: auto !important;
+    }
+    .contentIMg{
+        margin: 20px !important;
+    }
+    .contentIMg img{
+        margin-left: 40px;
+
+    }
+
+}
+  @media only screen and (max-width: 1059px){
+    .mobilemenu{
+        border: 2px solid rgb(128, 128, 128 ,0.4);
+
+
+    }
+    .mobileicon{
+        display: flex;
+    }
+    .logo ul{
+        flex-direction: column;
+    }
+    .fa-bars{
+        display:block;
+        margin-top: 20px;
+    }
+    .hide{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 770px){ 
+    .trailHeading h1{
+        font-size: 43px !important;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .icon img{
+        width: 20px !important;
+    }
+    .fa-bars{
+        font-size: 20px !important;
+    }
+    .mianheader{
+        padding: 10px 10px !important;
+    }
+    .buttonContent{
+        width: 600px !important;
+        
+    }
+    .buttonContent p{
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 650px){
+
+    .buttonContent p{
+        line-height: 19px !important;
+        font-size: 13px !important;
+    }
+
+    .galleryHeading h1{
+        font-size: 30px !important;
+    }
+}
+@media only screen and (max-width: 510px){
+    .contenHeading h1{
+        font-size:38px !important;
+        font-weight: bolder;
+    }
+    .contenHeading  {
+        width: 400px !important;
+        
+    }
+    .contenHeading p {
+        font-size: 15px !important;
+
+    }
+    .trailSection p{
+        font-size: 16px !important  ;
+      
+    }
+    .buttonContent{
+        width: 1200px !important;
+        /* border: 1px solid red; */
+     
+    }
+    
+    
+        .connect2{
+            font-size: 16px !important;
+        }
+}
+@media only screen and (max-width: 420px){
+    
+    .connect2{
+        font-size: 13px !important;
+    }
+
+}
