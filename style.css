@@ -198,9 +198,12 @@
     /* border: 1px solid red; */
       
   }
+  .trailHeading h1{
+
+      font-size: 50px;
+  }
   .trailHeading{
 
-    font-size: 40px;
     color: #d3d319;
     padding: 10px;
     text-align:center;
@@ -414,6 +417,9 @@
         width: 1200px !important;
         /* border: 1px solid red; */
      
+    }
+    .trailHeading h1{
+        font-size: 30px !important;
     }
     
     
@@ -1094,4 +1100,10 @@ html{
   .timeline .right-bottom {
     left: 50%;
     top: calc(50% - 3px);
+  }
+  .map{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px;
   }
